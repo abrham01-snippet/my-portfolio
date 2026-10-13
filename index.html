@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class= "background">
+     <section>
+      <nav id="navbar">
+        <ul>
+      <li>  <a href="#welcome-section">About</a></li>
+       <li>  <a href="#skills-section">Skills</a></li>
+      <li> <a href="#project-section">Projects</a></li>
+      <li>  <a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section id="welcome-section">
+      <div class="welcome-left">
+    <h1 > <span id="name">Abrham Kassaye</span></h1>
+    <p>
+      Curiosity-driven Full-Stack Engineer Building, breaking, and learning to create the next generation of web applications while consistently expanding my stack to adopt cutting-edge tools.
+      Currently pursuing a Bachelor of an Information Systems at Addis Ababa University, which equiped me with both the Technical-side and Business-Side knowledges and perspectives. I believe in the power of Quality works and services; that starts with understanding the problem well and achieved through collaboration, smart perspectives and good Technical knowledge.
+    </p>
+   <div class="hero-buttons">
+    <a href="#contact-section">Contact</a>
+    <a href="#project-section">Projects</a>
+   </div>
+    </div>
+    <div class="welcome-right">
+         <img class="portfolio_img" alt="Abrham Kassaye" src="portfolio_img.jpg">
+</div>
+        </section>
+<section id="skills-section">
+  <h2>Proficient skills</h2>
+  <div class="skills-container">
+    <div class="skills-group">
+  <h3>Technical-skills</h3>  
+  <ul class="skills-list">
+    <li><i class="devicon-html5-plain colored"></i> HTML</li>
+<li><i class="devicon-css3-plain colored"></i> CSS</li>
+<li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+<li><i class="devicon-java-plain colored"></i> Java</li>
+<li><i class="devicon-cplusplus-plain colored"></i> C++</li>
+<li><i class="devicon-python-plain colored"></i> Python</li>
+<li><i class="devicon-nodejs-plain colored"></i> NodeJs</li>
+<li><i class="devicon-nestjs-plain colored"></i> NestJs</li>
+<li><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
+<li><i class="devicon-postgresql-plain colored"></i> Postgresql</li>
+  </ul>
+  </div>
+  <div class="skills-group">
+  <h3>Soft-skills</h3>
+   <ul class="skills-list">
+  <li><i class="fa-solid fa-chalkboard" style="color:grey"></i>  Explaining concepts/ Story-telling</li>
+  <li><i class="fa-regular fa-comments" style="color:grey"></i>  Communication</li>
+  <li><i class="fa-solid fa-people-group" style="color:grey"></i>  Collaboration/ coordination</li>
+  <li><i class="fa-solid fa-microphone-lines" style="color:grey"></i>  Public speaking</li>
+  </ul>
+  </div>
+  </div>
+</section>
+    <section id="project-section">
+  <h2>Some of My Projects</h2>  <!-- moved OUTSIDE the grid -->
+  
+  <div class="project-grid">
+
+    <div class="project-card"> 
+<img src="agrImg.png" alt="Gebeya E-commerce preview"/>
+      <div class="project-content">
+        <h3>Gebeya E-commerce</h3>
+        <p>Gebeya is an innovative digital marketplace designed to revolutionize agricultural commerce by directly connecting farmers with merchants...</p>
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <a href="https://fascinating-gaufre-75c828.netlify.app/" class="view-btn">View Details</a>
+      </div>
+    </div>
+    <div class="project-card" >
+<img src="iesImg.png" alt="IES project preview"/>
+      <div class="project-content">
+        <h3>IES Portal</h3>
+        <p>We have fully revolutionized the Institute of Ethiopian Standards portal to match modern digital standards, transforming it into a robust user-centric platform...</p>
+        <div class="project-tags">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>CSS</span>
+        </div>
+        <a href="https://ieswebstore.netlify.app/" class="view-btn">View Details</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+   <section id="contact-section">
+  <div class="contact-card">
+
+    <div class="contact-form">
+      <h2>Get in Touch</h2>
+      <form id="contact-form">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name-entry">Name</label>
+            <input type="text" id="name-entry" placeholder="Enter your name"/>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email"/>
+            <small class="error-message"></small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Enter your message" rows="6"></textarea>
+        <small class="error-message"></small>
+        </div>
+        <button type="submit" class="send-btn">Send Message</button>
+
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <div class="info-item">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:abrhamkassaye5@gmail.com">abrhamkassaye5@gmail.com</a>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+251953223969">+2519 53 22 39 69</a>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Addis Ababa, Ethiopia</span>
+      </div>
+      <h3>Connect with Me</h3>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!--  PREVIOUS CONTACT SECTION CODE
+
+       <div class="contact-card">
+     <section id="contact-section">
+      <h3>Get in Touch:</h3>
+<ul>
+  <li>   Email: <a href="mailto:abrhamkassaye5@gmail.com">abrhamkassaye5@gmail.com</a></li>
+  <li>Phone: <a href="tel:+251916001318">+251 916 001 318</a></li>
+<li>Link: <a id="profile-link" href="https://www.freecodecamp.org/abrham1" target="_blank">My freeCodeCamp</a></li>
+     </ul>
+    </section>
+    </div>   -->
+
+  <!-- This is navbar section, I was thinkng to make it also at the end of the page  
+    <section>
+      <nav id="navbar">
+        <ul>
+      <li>  <a href="#welcome-section">Home</a></li>
+       <li> <a href="#project-section">Projects</a></li>
+      <li>  <a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+    </section> -->
+<footer>
+  <p> © 2026 Abrham Kassaye. All rights are reserved.</p>
+</footer>
+<script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
